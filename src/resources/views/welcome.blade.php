@@ -85,11 +85,7 @@
                 </div>
 
                 <div class="links">
-                    <?php
-                    use Jenssegers\Agent\Facades\Agent;
-                    $agent = new Agent();
-                    ?>
-                    {{dd($agent->isMobile())}}
+                    {{dd((new \Jenssegers\Agent\Agent())->isMobile())}}
                 </div>
             </div>
         </div>
