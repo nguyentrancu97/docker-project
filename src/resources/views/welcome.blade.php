@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                    {{dd((new \Jenssegers\Agent\Agent())->isMobile())}}
+                    Đây là trang web của nguyentrancu
                 </div>
             </div>
         </div>
