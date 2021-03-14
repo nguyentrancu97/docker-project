@@ -15,6 +15,6 @@ redis.on('message', function (channel, message) {
     io.emit(channel + ':' + message.event, message.data);
 });
 
-http.listen(9000, function () {
+http.listen(81, function () {
     console.log('Listening on Port 9000');
 });
